@@ -1,0 +1,452 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Marco - Blog </title>
+	<!--[if lt IE 9]>
+	
+	<![endif]-->
+	<!--[if lt IE 9]>
+      <script src="js/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="js/respond/1.4.2/respond.min.js"></script>
+   <![endif]-->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+   <link rel="stylesheet" href="font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!-- Loading -->
+<div id="loading" class="loading-layer">
+<div class="adjust-block">
+	<div class="load ">
+		<span class="sharingan"></span>
+		<span class="sharingan"></span>
+		<span class="sharingan"></span>
+	</div>
+</div>
+</div>
+<!-- Site Header -->
+<header class="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<a  class="animsition-link site-logo" href="index.html" >
+					<img src="images/site-logo.png" alt>
+				</a>
+				<span class="mobile-menu-icon visible-xs">
+					<a id="btn-nav" href="#">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+				</span> 
+			</div>
+			<div class="col-sm-10">
+				<nav id="site-nav" class="nav-toggle">
+					<ul class="menu">
+						<li><a href="index.html" >home</a></li>
+						<li><a href="about.html" >about</a></li>
+						<li class="is-dropdown">
+							<a href="#">blog
+								<i class="fa fa-angle-down"></i>
+							</a>
+							<ul> 
+								
+								<li>
+									<a href="#">With sidebar
+										<i class="fa fa-angle-right"></i>
+									</a>
+									<ul>
+										<li><a  href="blog.html">right sidebar</a></li>
+										<li><a  href="blog6.html">right sidebar full</a></li>
+										<li><a  href="blog2.html">left sidebar</a></li>
+										<li><a  href="blog8.html">left sidebar full</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Grid
+										<i class="fa fa-angle-right"></i>
+									</a>
+									<ul>
+										<li><a  href="blog3.html">2 columns</a></li>
+										<li><a  href="blog4.html">3 columns</a></li>
+										<li><a  href="blog5.html">4 columns</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Masonry
+										<i class="fa fa-angle-right"></i>
+									</a>
+									<ul>
+										<li><a  href="blog9.html">2 columns</a></li>
+										<li><a  href="blog10.html">3 columns</a></li>
+										<li><a  href="blog11.html">Right SideBar</a></li>
+										<li><a  href="blog12.html">Left SideBar</a></li>
+									</ul>
+								</li>
+								<li><a  href="blog7.html">Full width</a></li>
+								<li><a  href="single.html">Single article</a></li>
+
+							</ul>
+						</li> 
+						
+						<li class="is-dropdown">
+							<a href="#">portfolio 
+								<i class="fa fa-angle-down"></i>
+							</a>
+							<ul>
+								<li>
+									<a href="#">Masonry
+										<i class="fa fa-angle-right"></i>
+									</a>
+									<ul>
+										<li><a  href="portfolio8.html">Portfolio 1</a></li>
+										<li><a  href="portfolio2.html">Portfolio 2</a></li>
+										<li><a  href="portfolio3.html">Portfolio 3</a></li>
+										<li><a  href="portfolio4.html">Portfolio 4</a></li>
+										<li><a  href="portfolio5.html">Portfolio 5</a></li>
+										<li><a  href="portfolio.html">Portfolio 6</a></li>
+										<li><a  href="portfolio9.html">Black hover</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Grid
+										<i class="fa fa-angle-right"></i>
+									</a>
+									<ul>
+										<li><a  href="portfolio6.html">Portfolio 7</a></li>
+										<li><a  href="portfolio7.html">Portfolio 8</a></li>
+										<li><a  href="portfolio10.html">Portfolio 9</a></li>
+										<li><a  href="portfolio11.html">Portfolio 10</a></li>
+										<li><a  href="portfolio12.html">Black hover</a></li>
+									</ul>
+								</li>
+								<li><a  href="single-portfolio.html">Detail</a></li>
+							</ul>
+						</li>
+						<li><a  href="services.html">services</a></li>
+						<li><a  href="team.html">team</a></li>
+						<li><a  href="contact.html">contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div> 
+	</div>
+</header>
+<div class="section page-header">
+	<div class="head-overlayer"></div>
+	<div class="head-content">
+		<div class="adjust-block">
+			<h3 class="head-title animate fadeInUp">
+				Blog
+			</h3>
+			<div class="head-subtitle animate fadeInUp">
+				Read about our latest news
+			</div>
+		</div>
+	</div>	 
+</div>
+<div class="section page-blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<aside class="sidebar">
+	<div class="sidebar-wdg">
+		<div class="sidebar-search">
+			<!-- <i class="fa fa-search"></i> -->
+			<form action="#">
+				<input type="text" placeholder="Search">
+				<button type="submit"  class="search-btn" >
+					<i class="fa fa-search"></i> 
+				</button>
+			</form>
+
+		</div>
+	</div>
+	<div class="sidebar-wdg">
+	<h3 class="sidebar-title">Categories</h3>
+	<ul class="sidebar-list">
+		<li><a href="#">Development</a></li>
+		<li><a href="#">Design</a></li>
+		<li><a href="#">Wordpress</a></li>
+		<li><a href="#">Branding</a></li>
+		<li><a href="#">Print</a></li>
+	</ul>
+	</div>
+	<div class="sidebar-wdg">
+	<h3 class="sidebar-title">Archive</h3>
+	<ul class="sidebar-list">
+		<li><a href="#">Development</a></li>
+		<li><a href="#">Design</a></li>
+		<li><a href="#">Wordpress</a></li>
+		<li><a href="#">Branding</a></li>
+		<li><a href="#">Print</a></li>
+	</ul>
+	</div>
+	<div class="sidebar-wdg">
+	<h3 class="sidebar-title">Recent posts</h3>
+	<ul class="sidebar-posts">
+		<li>
+			<img src="images/sidepost.jpg" alt>
+			<div class="side-post-info">
+				<h2>
+					<a href="#">
+						Lorem ipsum dolor set amet adipisicing elit
+					</a>
+				</h2>
+				<span class="side-date">
+					Jul 30, 2016
+				</span>
+			</div>
+		</li>
+		<li>
+			<img src="images/sidepost.jpg" alt>
+			<div class="side-post-info">
+				<h2>
+					<a href="#">
+						Lorem ipsum dolor set amet adipisicing elit
+					</a>
+				</h2>
+				<span class="side-date">
+					Jul 30, 2016
+				</span>
+			</div>
+		</li>
+		<li>
+			<img src="images/sidepost.jpg" alt>
+			<div class="side-post-info">
+				<h2>
+					<a href="#">
+						Lorem ipsum dolor set amet adipisicing elit
+					</a>
+				</h2>
+				<span class="side-date">
+					Jul 30, 2016
+				</span>
+			</div>
+		</li>
+		<li>
+			<img src="images/sidepost.jpg" alt>
+			<div class="side-post-info">
+				<h2>
+					<a href="#">
+						Lorem ipsum dolor set amet adipisicing elit
+					</a>
+				</h2>
+				<span class="side-date">
+					Jul 30, 2016
+				</span>
+			</div>
+		</li>
+		 
+	</ul>
+	</div>
+	<div class="sidebar-wdg">
+		<h3 class="sidebar-title">Tags</h3>
+		<ul class="sidebar-links">
+			<li><a href="#">Art</a></li>
+			<li><a href="#">Logo</a></li>
+			<li><a href="#">Dev</a></li>
+			<li><a href="#">Design</a></li>
+			<li><a href="#">Wordpress</a></li>
+			<li><a href="#">Branding</a></li>
+			<li><a href="#">Print</a></li>
+		</ul>
+	</div>
+</aside>
+			</div>
+			<div class="col-md-9 blog-full">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="blog-post">
+							<div class="post-img">
+								<a href="#">
+									<img src="images/BlogFull_06.jpg" alt>
+								</a>
+							</div>
+							<div class="post-info">
+								<a href="#">Jul 30, 2016</a>
+								<a href="#">1 comment</a>
+							</div>
+							<h3 class="post-title">
+								<a href="#">
+									Another song of freedom redemption song
+								</a>
+							</h3> 
+							<p class="post-excerpt">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam neque tempora odit 
+								 atque repellat est molestiae perferendis.
+								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorum commodi, 
+								 amet laborum nobis quod maiores magni ea, culpa animi quam iste omnis reprehenderit velit,
+								  cum tempore dignissimos nulla, assumenda.
+							</p>
+
+							<a href="single.php" class="btn btn-tran-blm">read more</a>
+							
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="blog-post">
+							<div class="post-img">
+								<a href="#">
+									<img src="images/BlogFull_05.jpg" alt>
+								</a>
+							</div>
+							<div class="post-info">
+								<a href="#">Jul 30, 2016</a>
+								<a href="#">1 comment</a>
+							</div>
+							<h3 class="post-title">
+								<a href="#">
+									Another song of freedom redemption song
+								</a>
+							</h3> 
+							<p class="post-excerpt">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam neque tempora odit 
+								 atque repellat est molestiae perferendis.
+								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorum commodi, 
+								 amet laborum nobis quod maiores magni ea, culpa animi quam iste omnis reprehenderit velit,
+								  cum tempore dignissimos nulla, assumenda.
+							</p>
+
+							<a href="single.php" class="btn btn-tran-blm">read more</a>
+							
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="blog-post">
+							<div class="post-img">
+								<a href="#">
+									<img src="images/BlogFull_04.jpg" alt>
+								</a>
+							</div>
+							<div class="post-info">
+								<a href="#">Jul 30, 2016</a>
+								<a href="#">1 comment</a>
+							</div>
+							<h3 class="post-title">
+								<a href="#">
+									Another song of freedom redemption song
+								</a>
+							</h3> 
+							<p class="post-excerpt">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam neque tempora odit 
+								 atque repellat est molestiae perferendis.
+								 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dolorum commodi, 
+								 amet laborum nobis quod maiores magni ea, culpa animi quam iste omnis reprehenderit velit,
+								  cum tempore dignissimos nulla, assumenda.
+							</p>
+
+							<a href="single.php" class="btn btn-tran-blm">read more</a>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="post-pagination">
+					<a href="#" class="prev-post">
+						<i class="fa fa-chevron-left"></i>
+					</a>
+					<ul>
+						<li><a href="#">12</a></li>
+						<li><a href="#">13</a></li>
+						<li><a href="#">14</a></li>
+						<li>...</li>
+						<li><a href="#">19</a></li>
+					</ul>
+					<a href="#" class="next-post">
+						<i class="fa fa-chevron-right"></i>
+					</a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<!-- Footer -->
+	<div class="section footer-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fo-title">
+						Marco Template
+					</div>
+					<p class="fo-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Quam beatae, odit accusamus voluptates nemo necessitatibus vel quia vero
+					</p>
+					<div class="mem-social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-google"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="fo-title">
+						Site links
+					</div>
+					<div class="fo-nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="blog.html">Blog</a>
+						<a href="team.html">Team</a>
+						<a href="portfolio.html">Portfolio</a>
+						<a href="contact.html">Contact</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="fo-title">
+						Tweetts
+					</div>
+					<p class="fo-tweet">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+						Quam beatae, odit accusamus voluptates nemo necessitatibus vel quia vero
+						<span>
+							30 mins
+						</span>
+					</p>
+				</div>
+				<div class="col-md-3">
+					<div class="fo-title">
+						Instagram
+					</div>
+					<ul class="fo-instagram">
+						<li>
+							<a href="#">
+								<img src="images/work-img2.jpg" alt>
+							</a>
+						</li>
+						<li><a href="#"><img src="images/work-img2.jpg" alt></a></li>
+						<li><a href="#"><img src="images/work-img2.jpg" alt></a></li>
+						<li><a href="#"><img src="images/work-img2.jpg" alt></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer-bottom">
+		<p class="copyright" >
+			&copy; 2016 marco template - Designed & developed with <i class="fa fa-heart-o"></i> by Portgasthemes
+		</p>
+	</footer>	
+	<!-- End Footer -->	
+	<script src="js/jquery.js"></script>
+	<script src="js/image-loaded.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/swiper.jquery.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
